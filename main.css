@@ -1,0 +1,51 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  background-color: #0000FF;
+}
+
+h1 {
+  font-size: 50px;
+  font-kerning: 100px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 50px 10px 50px 10px;
+  width: 300px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin-top: 10px;
+}
+
+.addOption {
+  padding: 5px 10px;
+  background-color: #F9FF21;
+  color: black;
+  border-style: none;
+  border-radius: 15px;
+  margin-top: 15px;
+
+}
+
+
+.kor {
+  padding: 5px 30px;
+  background-color: #1E2A78;
+  border-style: none;
+  border-radius: 30px;
+  font-size: 40px;
+  color: #0000FF;
+
+}
